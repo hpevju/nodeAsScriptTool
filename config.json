@@ -1,0 +1,19 @@
+{
+    "develop": {
+        "mysql" : {
+            "host": "localhost",
+            "port": 5555,
+            "user": "user",
+            "password": "password",
+            "database": "database"
+        }, 
+        "mssql" : {
+            "database": "database",
+            "server": "SERVER\\INSTANSE,PORT",
+            "driver": "msnodesqlv8",
+            "options": {
+                "trustedConnection": true
+            }
+        }
+    }
+}
